@@ -1,0 +1,56 @@
+body {
+  background: #eee;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  font-family: Roboto, sans-serif;
+  display: flex;
+}
+
+form {
+  flex-direction: column;
+  width: 300px;
+  display: flex;
+}
+
+label {
+  text-transform: uppercase;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 16px;
+  font-family: monospace;
+  font-size: 12px;
+  font-weight: 700;
+  display: flex;
+}
+
+input {
+  border: 2px solid #708090;
+  border-radius: 20px;
+  outline: none;
+  margin-top: 8px;
+  padding: 8px;
+}
+
+button {
+  cursor: pointer;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #e25544;
+  border: none;
+  border-radius: 19px;
+  height: 38px;
+  font-family: sans-serif;
+  font-weight: 700;
+}
+
+.message {
+  text-align: center;
+  background-color: #cfcae7;
+  border-radius: 15px;
+  height: 30px;
+  padding: 10px;
+  left: 10px;
+}
+/*# sourceMappingURL=index.971c2ea4.css.map */
